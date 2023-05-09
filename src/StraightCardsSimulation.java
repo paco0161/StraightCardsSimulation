@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 public class StraightCardSimulation {
     private static final int CARDS_DRAW = 13;
-    private static final int NUMBER_OF_CASES = 1000_000_000;
+    private static final int NUMBER_OF_CASES = 100_000_000;
 
     private static final ArrayList<Card> STRAIGHT = new ArrayList<>(Arrays.asList(new Card("1,2,3,4,5", "Hearts"),
             new Card("2,3,4,5,6", "Hearts"),
